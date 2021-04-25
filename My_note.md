@@ -79,34 +79,43 @@ print("A 小於 B")
 ```
 
 ##迴圈 (for)(while)
-  ###for (自訂變數) in (可以遍歷的東⻄ iter):
-          (要幹嘛)
- 重複動作的事
-  #while (條件) :
-      (要幹嘛)
+     
+     for (自訂變數) in (可以遍歷的東⻄ iter):
+            (要幹嘛)
+  •重複動作的事
+  
+     while (條件) :
+     
+       (要幹嘛)
       
   •for迴圈常用關鍵字 :range(從, 到), enumerate(iter物),len(長度)
   •break=中斷跳出迴圈
   •continue=重新一次
 
 ##函式 (function)
- #def 名稱(參數) :
-   (要幹嘛)
-    return 回傳值
-•from (函式庫) import (函式、類別、變數) (as (自訂名字))
 
-•import (函式庫) (as (自訂名字))
+    def 名稱(參數) :
+   
+       (要幹嘛)
+      
+    •return 回傳值
+      
+    •from (函式庫) import (函式、類別、變數) (as (自訂名字))
+
+    •import (函式庫) (as (自訂名字))
 
 ##pwntools
-•作用:用來和遠端程式互動的 python 套件
-from pwn import *
-•r = process(‘’)可以打開一個本地程序並進行交互
+•作用:用來和遠端程式互動的 python 套件   
+      
+      from pwn import 
+      
+      r = process(‘’)可以打開一個本地程序並進行交互
 
-•r = remote(‘地址’,地址 )產生一个遠程的入口
+      r = remote(‘地址’,地址 )產生一个遠程的入口
 
-•s = r.recvuntil(‘’)一直讀到什麼出現為止
+      s = r.recvuntil(‘’)一直讀到什麼出現為止
 
-•r.sendline(‘ ’)發送一行數據
+      r.sendline(‘ ’)發送一行數據
 
 
 
